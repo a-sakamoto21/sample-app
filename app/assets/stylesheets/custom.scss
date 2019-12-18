@@ -23,6 +23,7 @@ textarea {
   margin-bottom: 10px;
 }
 
+
 /* タイポグラフィ */
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,7 +35,10 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  font-style: italic;
+  font-weight: bolder;
 }
+
 
 h2 {
   font-size: 1.2em;
@@ -45,14 +49,21 @@ h2 {
   color: #777;
 }
 
+
+
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+  
+}
+
+.row {
+  float: light;
 }
 
 /* ヘッダー */
 
-#header{
+.navbar{
   background-color: teal;
 }
 
@@ -61,7 +72,6 @@ p {
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
@@ -69,14 +79,29 @@ p {
   font-style: italic;
 }
 
-#logo:hover {
+.logo:hover {
   color: gray;
   text-decoration: none;
 }
 
-li .header-list{
+.headar-List{
+  font-size: 1.0em;
   color: #fff;
+  font-weight: bold;
+  text-transform: none;
 }
+
+#headar-List:hover {
+  color: gray;
+  text-transform: none;
+}
+
+
+#dropdown-title {
+  background-color: teal;
+  text-decoration: none;
+}
+
 
 /* デバッグウインドウ */
 
